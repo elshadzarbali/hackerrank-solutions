@@ -1,3 +1,5 @@
+package javab.introduction.java_if_else;
+
 // Problem: https://www.hackerrank.com/challenges/java-if-else/problem
 
 import java.util.Scanner;

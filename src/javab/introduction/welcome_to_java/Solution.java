@@ -1,3 +1,5 @@
+package javab.introduction.welcome_to_java;
+
 // Problem: https://www.hackerrank.com/challenges/welcome-to-java/problem
 
 public class Solution {

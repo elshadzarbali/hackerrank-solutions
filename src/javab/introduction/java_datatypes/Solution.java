@@ -1,3 +1,5 @@
+package javab.introduction.java_datatypes;
+
 // Problem: https://www.hackerrank.com/challenges/java-datatypes/problem
 
 import java.util.Scanner;
@@ -31,6 +33,6 @@ class Solution {
                 System.out.println(sc.next() + " can't be fitted anywhere.");
             }
         }
-        scan.close();
+        sc.close();
     }
 }
