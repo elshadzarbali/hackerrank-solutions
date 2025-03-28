@@ -1,6 +1,8 @@
 package algorithms.warmup.solve_me_first;
 
-// Problem: https://www.hackerrank.com/challenges/solve-me-first/problem
+// Problem name: Solve Me First
+// Difficulty: Easy
+// Problem link: https://www.hackerrank.com/challenges/solve-me-first/problem
 
 import java.util.Scanner;
 

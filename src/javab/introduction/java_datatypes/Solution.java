@@ -1,6 +1,8 @@
 package javab.introduction.java_datatypes;
 
-// Problem: https://www.hackerrank.com/challenges/java-datatypes/problem
+// Problem name: Java Datatypes
+// Difficulty: Easy
+// Problem link: https://www.hackerrank.com/challenges/java-datatypes/problem
 
 import java.util.Scanner;
 

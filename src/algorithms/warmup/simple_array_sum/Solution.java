@@ -1,6 +1,8 @@
 package algorithms.warmup.simple_array_sum;
 
-// Problem: https://www.hackerrank.com/challenges/simple-array-sum/problem
+// Problem name: Simple Array Sum
+// Difficulty: Easy
+// Problem link: https://www.hackerrank.com/challenges/simple-array-sum/problem
 
 import java.io.*;
 import java.util.List;

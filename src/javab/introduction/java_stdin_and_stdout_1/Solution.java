@@ -1,6 +1,8 @@
 package javab.introduction.java_stdin_and_stdout_1;
 
-// Problem: https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem
+// Problem name: Java Stdin and Stdout I
+// Difficulty: Easy
+// Problem link: https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem
 
 import java.util.Scanner;
 
