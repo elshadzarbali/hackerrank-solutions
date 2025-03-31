@@ -23,6 +23,16 @@ This repository contains my solutions to various **HackerRank** problems, catego
 
 ### Java
 <details>
+  <summary><b>Bignumber</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Java BigDecimal](https://www.hackerrank.com/challenges/java-bigdecimal/problem) | Medium | ✔ [Solution.java](src/javab/bignumber/java_bigdecimal/Solution.java)<br>✔ [Solution1.java](src/javab/bignumber/java_bigdecimal/Solution1.java) |
+| [Java BigInteger](https://www.hackerrank.com/challenges/java-biginteger/problem) | Easy | ✔ [Solution.java](src/javab/bignumber/java_biginteger/Solution.java) |
+| [Java Primality Test](https://www.hackerrank.com/challenges/java-primality-test/problem) | Easy | ✔ [Solution.java](src/javab/bignumber/java_primality_test/Solution.java) |
+</details>
+
+<details>
   <summary><b>Introduction</b></summary>
 
 | Problem Name | Difficulty | My Solution Link |
