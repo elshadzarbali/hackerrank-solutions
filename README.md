@@ -42,5 +42,20 @@ This repository contains my solutions to various **HackerRank** problems, catego
 | [Welcome to Java!](https://www.hackerrank.com/challenges/welcome-to-java/problem) | Easy | ✔ [Solution.java](src/javab/introduction/welcome_to_java/Solution.java) |
 </details>
 
+<details>
+  <summary><b>Strings</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Java Anagrams](https://www.hackerrank.com/challenges/java-anagrams/problem) | Easy | ✔ [Solution.java](src/javab/strings/java_anagrams/Solution.java) |
+| [Java Regex](https://www.hackerrank.com/challenges/java-regex/problem) | Medium | ✔ [Solution.java](src/javab/strings/java_regex/Solution.java) |
+| [Java String Reverse](https://www.hackerrank.com/challenges/java-string-reverse/problem) | Easy | ✔ [Solution.java](src/javab/strings/java_string_reverse/Solution.java)<br>✔ [Solution1.java](src/javab/strings/java_string_reverse/Solution1.java) |
+| [Java String Tokens](https://www.hackerrank.com/challenges/java-string-tokens/problem) | Easy | ✔ [Solution.java](src/javab/strings/java_string_tokens/Solution.java) |
+| [Java Strings Introduction](https://www.hackerrank.com/challenges/java-strings-introduction/problem) | Easy | ✔ [Solution.java](src/javab/strings/java_strings_introduction/Solution.java)<br>✔ [Solution1.java](src/javab/strings/java_strings_introduction/Solution1.java) |
+| [Java Substring](https://www.hackerrank.com/challenges/java-substring/problem) | Easy | ✔ [Solution.java](src/javab/strings/java_substring/Solution.java) |
+| [Java Substring Comparisons](https://www.hackerrank.com/challenges/java-string-compare/problem) | Easy | ✔ [Solution.java](src/javab/strings/java_substring_comparisons/Solution.java) |
+| [Pattern Syntax Checker](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem) | Easy | ✔ [Solution.java](src/javab/strings/pattern_syntax_checker/Solution.java) |
+</details>
+
 ---
 
