@@ -33,6 +33,18 @@ This repository contains my solutions to various **HackerRank** problems, catego
 </details>
 
 <details>
+  <summary><b>Data Structures</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Java 1D Array](https://www.hackerrank.com/challenges/java-1d-array-introduction/problem) | Easy | ✔ [Solution.java](src/javab/data_structures/java_1d_array/Solution.java) |
+| [Java 1D Array (Part 2)](https://www.hackerrank.com/challenges/java-1d-array/problem) | Medium | ✔ [Solution.java](src/javab/data_structures/java_1d_array2/Solution.java) |
+| [Java 2D Array](https://www.hackerrank.com/challenges/java-2d-array/problem) | Easy | ✔ [Solution.java](src/javab/data_structures/java_2d_array/Solution.java) |
+| [Java Arraylist](https://www.hackerrank.com/challenges/java-arraylist/problem) | Easy | ✔ [Solution.java](src/javab/data_structures/java_arraylist/Solution.java) |
+| [Java Subarray](https://www.hackerrank.com/challenges/java-negative-subarray/problem) | Easy | ✔ [Solution.java](src/javab/data_structures/java_subarray/Solution.java) |
+</details>
+
+<details>
   <summary><b>Introduction</b></summary>
 
 | Problem Name | Difficulty | My Solution Link |
