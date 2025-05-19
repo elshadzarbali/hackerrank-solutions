@@ -11,7 +11,6 @@ This repository contains my solutions to various **HackerRank** problems, catego
 ### Algorithms
 
 <details>
-  <h1>Elshad-in Eseri</h1>
   <summary><b>Warmup</b></summary>
 
 | Problem Name | Difficulty | My Solution Link |
