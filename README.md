@@ -15,6 +15,8 @@ This repository contains my solutions to various **HackerRank** problems, catego
 
 | Problem Name | Difficulty | My Solution Link |
 |--------------|--------------|--------------|
+| [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/a_very_big_sum/Solution.java) |
+| [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/compare_the_triplets/Solution.java) |
 | [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/simple_array_sum/Solution.java) |
 | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/solve_me_first/Solution.java) |
 </details>
