@@ -51,6 +51,18 @@ This repository contains my solutions to various **HackerRank** problems, catego
 
 ---
 
+### Data Structures
+
+<details>
+  <summary><b>Stacks</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem) | Medium | ✔ [Solution.java](src/data_structures/stacks/balanced_brackets/Solution.java) |
+</details>
+
+---
+
 ### Java
 <details>
   <summary><b>Bignumber</b></summary>
