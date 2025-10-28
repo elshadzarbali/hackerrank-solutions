@@ -12,6 +12,7 @@ class Result {
         // my code starts
         boolean isAM = s.endsWith("AM");
         String result = s.substring(0, 8);
+
         if (isAM) {
             if (result.substring(0, 2).equals("12")) {
                 result = result.replaceFirst("12", "00");
@@ -22,6 +23,7 @@ class Result {
                 result = result.replaceFirst(result.substring(0, 2), String.valueOf(hour + 12));
             }
         }
+
         return result;
         // my code ends
     }
