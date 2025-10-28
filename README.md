@@ -11,6 +11,28 @@ This repository contains my solutions to various **HackerRank** problems, catego
 ### Algorithms
 
 <details>
+  <summary><b>Implementation</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/apple_and_orange/Solution.java) |
+| [Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/between_two_sets/Solution.java) |
+| [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/bill_division/Solution.java) |
+| [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/breaking_the_records/Solution.java) |
+| [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/cats_and_a_mouse/Solution.java) |
+| [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/counting_valleys/Solution.java) |
+| [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/day_of_the_programmer/Solution.java) |
+| [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/divisible_sum_pairs/Solution.java) |
+| [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/drawing_book/Solution.java) |
+| [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/electronics_shop/Solution.java) |
+| [Grading Students](https://www.hackerrank.com/challenges/grading/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/grading_students/Solution.java) |
+| [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/migratory_birds/Solution.java) |
+| [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/number_line_jumps/Solution.java) |
+| [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/sales_by_match/Solution.java) |
+| [Subarray Division](https://www.hackerrank.com/challenges/the-birthday-bar/problem) | Easy | ✔ [Solution.java](src/algorithms/implementation/subarray_division/Solution.java) |
+</details>
+
+<details>
   <summary><b>Warmup</b></summary>
 
 | Problem Name | Difficulty | My Solution Link |
@@ -24,6 +46,7 @@ This repository contains my solutions to various **HackerRank** problems, catego
 | [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/simple_array_sum/Solution.java) |
 | [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/solve_me_first/Solution.java) |
 | [Staircase](https://www.hackerrank.com/challenges/staircase/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/staircase/Solution.java) |
+| [Time Conversion](https://www.hackerrank.com/challenges/time-conversion/problem) | Easy | ✔ [Solution.java](src/algorithms/warmup/time_conversion/Solution.java) |
 </details>
 
 ---
