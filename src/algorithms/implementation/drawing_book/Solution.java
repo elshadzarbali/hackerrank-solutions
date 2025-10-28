@@ -1,30 +1,24 @@
-package algorithms.implementation.divisible_sum_pairs;
+package algorithms.implementation.drawing_book;
 
-// Problem name: Divisible Sum Pairs
+// Problem name: Drawing Book
 // Difficulty: Easy
-// Problem link: https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
+// Problem link: https://www.hackerrank.com/challenges/drawing-book/problem
 
 import java.io.*;
-import java.util.List;
-import java.util.stream.Stream;
-
-import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    public static int divisibleSumPairs(int n, int k, List<Integer> ar) {
+    public static int pageCount(int n, int p) {
         // my code starts
-        int count = 0;
-
-        for (int i = 0; i < n; i++) {
-            int a = ar.get(i);
-            for (int j = i + 1; j < n; j++) {
-                int b = ar.get(j);
-                if ((a + b) % k == 0) count++;
+        if (p <= n / 2) { // start beginning of the book
+            return p / 2;
+        } else { // (p > n /2 ) start end of the book
+            if (n % 2 == 0) {
+                return (n + 1 - p) / 2;
+            } else {
+                return (n - p) / 2;
             }
         }
-
-        return count;
         // my code ends
     }
 
@@ -35,17 +29,11 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+        int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-        int n = Integer.parseInt(firstMultipleInput[0]);
+        int p = Integer.parseInt(bufferedReader.readLine().trim());
 
-        int k = Integer.parseInt(firstMultipleInput[1]);
-
-        List<Integer> ar = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                .map(Integer::parseInt)
-                .collect(toList());
-
-        int result = Result.divisibleSumPairs(n, k, ar);
+        int result = Result.pageCount(n, p);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
