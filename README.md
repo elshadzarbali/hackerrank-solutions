@@ -123,6 +123,18 @@ This repository contains my solutions to various **HackerRank** problems, catego
 
 ---
 
+### Sql
+
+<details>
+  <summary><b>Basic Select</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Revising the Select Query I](https://www.hackerrank.com/challenges/30-recursion/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/revising_the_select_query_1/Solution.sql) |
+</details>
+
+---
+
 ### Tutorials
 
 <details>
