@@ -12,6 +12,8 @@ import java.util.stream.Collectors;
 public class ReadMeGenerator {
     private static final String ROOT_DIR = "src";
     private static final String README_FILE = "README.md";
+    private static final Pattern PROBLEM_NAME_PATTERN = Pattern.compile("^\\s*(?:--|//)\\s*Problem name:\\s*(.*)$", Pattern.CASE_INSENSITIVE);
+    private static final Pattern DIFFICULTY_PATTERN = Pattern.compile("^\\s*(?:--|//)\\s*Difficulty:\\s*(.*)$", Pattern.CASE_INSENSITIVE);
     private static final Pattern URL_PATTERN = Pattern.compile("https://www\\.hackerrank\\.com/challenges/\\S*");
     private static final String DEFAULT_PROBLEM_DIFFICULTY = "Unknown";
     private static final String DEFAULT_PROBLEM_NAME = "Unknown";
@@ -64,7 +66,9 @@ public class ReadMeGenerator {
                             readmeContent.append("|--------------|--------------|--------------|\n");
                             for (File problemFolder : problemFolders) {
 
-                                File[] solutionFiles = problemFolder.listFiles((dir, name) -> name.endsWith(".java"));
+                                File[] solutionFiles = problemFolder.listFiles(
+                                        (dir, name) -> (name.endsWith(".java") || name.endsWith(".sql"))
+                                );
 
                                 if (solutionFiles != null && solutionFiles.length > 0) {
                                     Arrays.sort(solutionFiles);
@@ -111,20 +115,33 @@ public class ReadMeGenerator {
             String line;
             int flag = 0;
             while ((line = reader.readLine()) != null && flag < 3) {
-                if (line.startsWith("// Problem name:")) {
-                    line = line.replace("// Problem name:", "").trim();
-                    problemDetails.put("name", line);
-                    flag++;
-                } else if (line.startsWith("// Difficulty:")) {
-                    line = line.replace("// Difficulty:", "").trim();
-                    problemDetails.put("difficulty", line);
-                    flag++;
-                } else {
-                    Matcher matcher = URL_PATTERN.matcher(line);
-                    if (matcher.find()) {
-                        problemDetails.put("url", matcher.group());
+                // 1) Match problem name in // or -- comments
+                Matcher nameMatcher = PROBLEM_NAME_PATTERN.matcher(line);
+                if (nameMatcher.find()) {
+                    String name = nameMatcher.group(1).trim();
+                    if (!name.isEmpty() && !problemDetails.containsKey("name")) {
+                        problemDetails.put("name", name);
                         flag++;
+                        continue;
                     }
+                }
+
+                // 2) Match difficulty in // or -- comments
+                Matcher diffMatcher = DIFFICULTY_PATTERN.matcher(line);
+                if (diffMatcher.find()) {
+                    String difficulty = diffMatcher.group(1).trim();
+                    if (!difficulty.isEmpty() && !problemDetails.containsKey("difficulty")) {
+                        problemDetails.put("difficulty", difficulty);
+                        flag++;
+                        continue;
+                    }
+                }
+
+                // 3) Try to find URL anywhere in the line (works for commented or non-commented lines)
+                Matcher urlMatcher = URL_PATTERN.matcher(line);
+                if (urlMatcher.find() && !problemDetails.containsKey("url")) {
+                    problemDetails.put("url", urlMatcher.group());
+                    flag++;
                 }
             }
             if (problemDetails.isEmpty()) {
