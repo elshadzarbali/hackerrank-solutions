@@ -123,3 +123,25 @@ This repository contains my solutions to various **HackerRank** problems, catego
 
 ---
 
+### Tutorials
+
+<details>
+  <summary><b>Thirty Days Of Code</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Day 0: Hello, World.](https://www.hackerrank.com/challenges/30-hello-world/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_0_hello_world/Solution.java) |
+| [Day 10: Binary Numbers](https://www.hackerrank.com/challenges/30-binary-numbers/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_10_binary_numbers/Solution.java) |
+| [Day 1: Data Types](https://www.hackerrank.com/challenges/30-data-types/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_1_data_types/Solution.java) |
+| [Day 2: Operators](https://www.hackerrank.com/challenges/30-operators/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_2_operators/Solution.java) |
+| [Day 3: Intro to Conditional Statements](https://www.hackerrank.com/challenges/30-conditional-statements/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_3_intro_to_conditional_statements/Solution.java) |
+| [Day 4: Class vs. Instance](https://www.hackerrank.com/challenges/30-class-vs-instance/problem) | Easy | ✔ [Person.java](src/tutorials/thirty_days_of_code/day_4_class_vs_instance/Person.java) |
+| [Day 5: Loops](https://www.hackerrank.com/challenges/30-loops/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_5_loops/Solution.java) |
+| [Day 6: Let's Review](https://www.hackerrank.com/challenges/30-review-loop/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_6_lets_review/Solution.java) |
+| [Day 7: Arrays](https://www.hackerrank.com/challenges/30-arrays/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_7_arrays/Solution.java) |
+| [Day 8: Dictionaries and Maps](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_8_dictionaries_and_maps/Solution.java) |
+| [Day 9: Recursion 3](https://www.hackerrank.com/challenges/30-recursion/problem) | Easy | ✔ [Solution.java](src/tutorials/thirty_days_of_code/day_9_recursion_3/Solution.java) |
+</details>
+
+---
+
