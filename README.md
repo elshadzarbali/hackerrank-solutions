@@ -126,6 +126,17 @@ This repository contains my solutions to various **HackerRank** problems, catego
 ### Sql
 
 <details>
+  <summary><b>Advanced Select</b></summary>
+
+| Problem Name | Difficulty | My Solution Link |
+|--------------|--------------|--------------|
+| [Binary Tree Nodes](https://www.hackerrank.com/challenges/binary-search-tree-1/problem) | Medium | ✔ [Solution.sql](src/sql/advanced_select/binary_tree_nodes/Solution.sql) |
+| [New Companies](https://www.hackerrank.com/challenges/the-company/problem) | Medium | ✔ [Solution.sql](src/sql/advanced_select/new_companies/Solution.sql) |
+| [The PADS](https://www.hackerrank.com/challenges/the-pads/problem) | Medium | ✔ [Solution.sql](src/sql/advanced_select/the_pads/Solution.sql) |
+| [Type of Triangle](https://www.hackerrank.com/challenges/what-type-of-triangle/problem) | Easy | ✔ [Solution.sql](src/sql/advanced_select/type_of_triangle/Solution.sql) |
+</details>
+
+<details>
   <summary><b>Basic Select</b></summary>
 
 | Problem Name | Difficulty | My Solution Link |
