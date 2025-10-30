@@ -130,7 +130,26 @@ This repository contains my solutions to various **HackerRank** problems, catego
 
 | Problem Name | Difficulty | My Solution Link |
 |--------------|--------------|--------------|
-| [Revising the Select Query I](https://www.hackerrank.com/challenges/30-recursion/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/revising_the_select_query_1/Solution.sql) |
+| [Employee Names](https://www.hackerrank.com/challenges/name-of-employees/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/employee_names/Solution.sql) |
+| [Employee Salaries](https://www.hackerrank.com/challenges/salary-of-employees/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/employee_salaries/Solution.sql) |
+| [Higher Than 75 Marks](https://www.hackerrank.com/challenges/more-than-75-marks/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/higher_than_75_marks/Solution.sql) |
+| [Japanese Cities' Attributes](https://www.hackerrank.com/challenges/japanese-cities-attributes/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/japanese_cities_attributes/Solution.sql) |
+| [Japanese Cities' Names](https://www.hackerrank.com/challenges/japanese-cities-name/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/japanese_cities_names/Solution.sql) |
+| [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/revising_the_select_query_1/Solution.sql) |
+| [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/revising_the_select_query_2/Solution.sql) |
+| [Select All](https://www.hackerrank.com/challenges/select-all-sql/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/select_all/Solution.sql) |
+| [Select By ID](https://www.hackerrank.com/challenges/select-by-id/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/select_by_id/Solution.sql) |
+| [Weather Observation Station 1](https://www.hackerrank.com/challenges/weather-observation-station-1/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_1/Solution.sql) |
+| [Weather Observation Station 10](https://www.hackerrank.com/challenges/weather-observation-station-10/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_10/Solution.sql) |
+| [Weather Observation Station 11](https://www.hackerrank.com/challenges/weather-observation-station-11/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_11/Solution.sql) |
+| [Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_12/Solution.sql) |
+| [Weather Observation Station 3](https://www.hackerrank.com/challenges/weather-observation-station-3/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_3/Solution.sql) |
+| [Weather Observation Station 4](https://www.hackerrank.com/challenges/weather-observation-station-4/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_4/Solution.sql) |
+| [Weather Observation Station 5](https://www.hackerrank.com/challenges/weather-observation-station-5/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_5/Solution.sql) |
+| [Weather Observation Station 6](https://www.hackerrank.com/challenges/weather-observation-station-6/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_6/Solution.sql) |
+| [Weather Observation Station 7](https://www.hackerrank.com/challenges/weather-observation-station-7/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_7/Solution.sql) |
+| [Weather Observation Station 8](https://www.hackerrank.com/challenges/weather-observation-station-8/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_8/Solution.sql) |
+| [Weather Observation Station 9](https://www.hackerrank.com/challenges/weather-observation-station-9/problem) | Easy | ✔ [Solution.sql](src/sql/basic_select/weather_observation_station_9/Solution.sql) |
 </details>
 
 ---
