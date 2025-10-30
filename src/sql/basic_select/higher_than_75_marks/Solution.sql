@@ -1,6 +1,5 @@
--- Problem name: Weather Observation Station 12
+-- Problem name: Higher Than 75 Marks
 -- Difficulty: Easy
--- Problem link: https://www.hackerrank.com/challenges/weather-observation-station-12/problem
+-- Problem link: https://www.hackerrank.com/challenges/more-than-75-marks/problem
 
-select distinct(City) from Station
-where City regexp '^[^aeiou].*[^aeiou]$';
+select Name from Students where Marks > 75 order by right(Name, 3), ID;
